@@ -1,0 +1,11 @@
+# Read the number of elements
+N = int(input().strip())
+
+# Read the array elements and convert them to integers
+array = list(map(int, input().strip().split()))
+
+# Calculate the average
+average = sum(array) / N
+
+# Print the average rounded to two decimal places
+print(f"{average:.2f}")
