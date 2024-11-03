@@ -1,0 +1,7 @@
+X = int(input())
+
+# Perform floor division
+result = X // 10
+
+# Print the result
+print(result)
