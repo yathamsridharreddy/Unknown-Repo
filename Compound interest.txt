@@ -1,0 +1,8 @@
+
+P, R, T = map(float, input().split())
+
+
+total_amount = P * (1 + R / 100) ** T
+
+
+print(f"{total_amount:.2f}")
